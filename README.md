@@ -4,11 +4,15 @@ Clean Super Ip Site
 This Stylus theme applies a clean, modern dark mode to suip.biz, with the following changes:
 
 ✅ Replaced the default light theme with a Google-style dark theme.
+
 ✅ Changed the font to Inter, for a smoother and more modern look.
+
 ✅ Recolored backgrounds, borders, buttons, inputs, and sliders to match the dark theme.
+
 ✅ Improved layout and spacing for consistency.
 
 ❌ Removed aggressive styles that affected external websites like Google Maps — style is scoped only to suip.biz.
+
 ❌ Icon Has Been removed because it's blank
 
 🔧 Optional: fully compatible with Stylus in Chrome, Edge, and Chromium-based browsers. (NOT SUPPORT FIREFOX)
