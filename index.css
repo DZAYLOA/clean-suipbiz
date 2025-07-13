@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+html, body {
+  background-color: #202124 !important;
+  color: #e8eaed !important;
+  font-family: 'Inter', sans-serif !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+
+*, ::before, ::after {
+  background-color: transparent !important;
+  color: inherit !important;
+  border-color: #3c4043 !important;
+  box-shadow: none !important;
+  font-family: 'Inter', sans-serif !important;
+  box-sizing: border-box !important;
+}
+
+body > *, form, .container, .main, .content, .wrapper, .wrap, .center, center, table, div {
+  max-width: 100% !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+table, input, textarea, select, button, div, form {
+  background-color: #303134 !important;
+  color: #e8eaed !important;
+  border: 1px solid #3c4043 !important;
+  border-radius: 4px !important;
+}
+
+button, input[type="submit"], input[type="button"] {
+  background-color: #3c4043 !important;
+  color: #e8eaed !important;
+  border: 1px solid #5f6368 !important;
+  cursor: pointer !important;
+}
+
+button:hover, input[type="submit"]:hover, input[type="button"]:hover {
+  background-color: #5f6368 !important;
+}
+
+a {
+  color: #8ab4f8 !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+:focus {
+  outline: 1px solid #8ab4f8 !important;
+}
+
+input[type="range"] {
+  accent-color: #8ab4f8 !important;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  background-color: #8ab4f8 !important;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: #5f6368 !important;
+}
+
+a[href="/"] {
+  position: relative !important;
+  display: inline-block !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+
+input, textarea {
+  max-width: 100% !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  margin: 0 auto !important;
+  display: block !important;
+}
