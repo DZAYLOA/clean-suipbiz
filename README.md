@@ -18,3 +18,4 @@ This Stylus theme applies a clean, modern dark mode to suip.biz, with the follow
 
 🔧 Optional: fully compatible with Stylus in Chrome, Edge, and Chromium-based browsers. (NOT SUPPORT FIREFOX)
 
+[STYLUS CHROME WEB STORE PAGE] -- https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?pli=1
