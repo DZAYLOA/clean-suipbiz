@@ -1,85 +1,116 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@-moz-document domain("suip.biz") {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-html, body {
-  background-color: #202124 !important;
-  color: #e8eaed !important;
-  font-family: 'Inter', sans-serif !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  overflow-x: hidden !important;
+  .logo {
+    display: none !important;
+}
+    
+  .widgets {
+    display: none !important;
 }
 
-*, ::before, ::after {
-  background-color: transparent !important;
-  color: inherit !important;
-  border-color: #3c4043 !important;
-  box-shadow: none !important;
-  font-family: 'Inter', sans-serif !important;
-  box-sizing: border-box !important;
+  div[style*="max-width: 760px"][style*="height: auto"] {
+    display: none !important;
+  }
+    
+  article[style*="height: auto !important"] {
+    display: none !important;
 }
 
-body > *, form, .container, .main, .content, .wrapper, .wrap, .center, center, table, div {
-  max-width: 100% !important;
-  width: 100% !important;
-  margin: 0 auto !important;
-  box-sizing: border-box !important;
-  overflow: hidden !important;
+  ins.adsbygoogle {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+    
+  #nb3 {
+    display: none !important;
+}
+    
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 100vh !important;
+    font-family: 'Inter', sans-serif !important;
+    color: #e5e5e5 !important;
+    background: radial-gradient(circle at center, #0c0c0c 0%, #0a0a0a 70%, #050505 100%) !important;
+  }
+
+  div, section, article, .container, .main, .content, .wrapper {
+    background: #111 !important;
+    border: 1px solid #1c1c1c !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+  }
+
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    background: #111 !important;
+  }
+  th, td {
+    border: 1px solid #1f1f1f !important;
+    padding: 6px 10px !important;
+  }
+
+  form, fieldset, legend {
+    background: #111 !important;
+    border: none !important;
+  }
+
+  input, textarea, select {
+    background: #0d0d0d !important;
+    color: #eee !important;
+    border: 1px solid #222 !important;
+    border-radius: 6px !important;
+    padding: 6px 8px !important;
+  }
+
+  button, input[type="submit"], input[type="button"], input[type="reset"] {
+    background: #181818 !important;
+    color: #eee !important;
+    border: 1px solid #2a2a2a !important;
+    border-radius: 6px !important;
+    padding: 6px 12px !important;
+    cursor: pointer !important;
+    transition: background 0.2s ease, transform 0.1s ease;
+  }
+  button:hover, input[type="submit"]:hover, input[type="button"]:hover {
+    background: #222 !important;
+    transform: translateY(-1px);
+  }
+
+  a {
+    color: #8ab4f8 !important;
+    text-decoration: none !important;
+  }
+  a:hover {
+    text-decoration: underline !important;
+  }
+    
+form table, form td, form th, form tr {
+  border: none !important;
+  background: #111 !important;
+  color: #e5e5e5 !important;
 }
 
-table, input, textarea, select, button, div, form {
-  background-color: #303134 !important;
-  color: #e8eaed !important;
-  border: 1px solid #3c4043 !important;
-  border-radius: 4px !important;
-}
-
-button, input[type="submit"], input[type="button"] {
-  background-color: #3c4043 !important;
-  color: #e8eaed !important;
-  border: 1px solid #5f6368 !important;
-  cursor: pointer !important;
-}
-
-button:hover, input[type="submit"]:hover, input[type="button"]:hover {
-  background-color: #5f6368 !important;
-}
-
-a {
-  color: #8ab4f8 !important;
-}
-
-a:hover {
-  text-decoration: underline !important;
-}
-
-:focus {
-  outline: 1px solid #8ab4f8 !important;
-}
-
-input[type="range"] {
-  accent-color: #8ab4f8 !important;
-}
-
-input[type="range"]::-webkit-slider-thumb {
-  background-color: #8ab4f8 !important;
-}
-
-input[type="range"]::-webkit-slider-runnable-track {
-  background-color: #5f6368 !important;
-}
-
-a[href="/"] {
-  position: relative !important;
-  display: inline-block !important;
-  width: 40px !important;
-  height: 40px !important;
+hr {
+  border: none !important;
+  border-top: 1px solid #333 !important;
+  margin: 8px 0 !important;
 }
 
 
-input, textarea {
-  max-width: 100% !important;
-  width: 100% !important;
-  box-sizing: border-box !important;
-  margin: 0 auto !important;
-  display: block !important;
+h2, h3, h4, h5, strong {
+  color: #fff !important;
+}
+
+h2 {
+  border-bottom: 1px solid #333 !important;
+  padding-bottom: 4px !important;
+  color: #fff !important;
+}
+    
 }
